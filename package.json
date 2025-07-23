@@ -1,0 +1,28 @@
+{
+  "name": "lead-generation-pipeline",
+  "version": "1.0.0",
+  "description": "Lead generation pipeline",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node leadGenerationPipelineScript.ts",
+    "compile": "npx tsc"
+  },
+  "dependencies": {
+    "@google/genai": "^1.10.0",
+    "@types/cheerio": "^0.22.35",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "openai": "^5.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
